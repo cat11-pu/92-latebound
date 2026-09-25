@@ -1,0 +1,10 @@
+{
+  "unresolved_code": "E_UNRESOLVED_KEY",
+  "syntax": "double_brace",
+  "mode": "strict",
+  "template": "hello {{name}}, id={{id}}, missing={{absent}}",
+  "chain": ["user", "global"],
+  "fallback": "-",
+  "done_keys": ["id"],
+  "values": {"name": "alice", "id": 7, "global": {"absent": "x"}}
+}
